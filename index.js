@@ -34,3 +34,7 @@ client.on('interactionCreate', async interaction => {
 });
 
 client.login(token);
+
+client.on('ready', () => {
+	console.log('The client is ready!')
+})
